@@ -1,3 +1,3 @@
-import arrow from './lib/arrow'
+import search from './lib/search'
 
-export { arrow }
+export default search

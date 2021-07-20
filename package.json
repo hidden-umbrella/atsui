@@ -1,11 +1,11 @@
 {
-  "name": "template",
-  "version": "0.0.0",
+  "name": "@hidden-umbrella/atsui",
+  "version": "1.0.1",
   "main": "dist/src/index",
   "author": "ArtieFuzzz#8298",
   "license": "MIT",
   "private": false,
-  "description": "A template",
+  "description": "Search steam games and get the info about it",
   "typings": "dist/src/index.d.ts",
   "scripts": {
     "lint": "eslint src --ext ts",
@@ -40,19 +40,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hidden-umbrella/template.git"
+    "url": "https://github.com/hidden-umbrella/tsuki.git"
   },
   "bugs": {
-    "url": "https://github.com/hidden-umbrella/template/issues"
+    "url": "https://github.com/hidden-umbrella/tsuki/issues"
   },
   "files": [
     "dist",
     "!dist/*.tsbuildinfo"
   ],
   "keywords": [
-    "nothing",
-    "much",
-    "yet"
+    "api",
+    "steam"
   ],
   "commitlint": {
     "extends": [
@@ -69,5 +68,7 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "@aero/centra": "^1.0.6"
+  }
 }
